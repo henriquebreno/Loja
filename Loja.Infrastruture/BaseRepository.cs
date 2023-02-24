@@ -23,6 +23,7 @@ namespace Loja.Infrastruture
         public void Add(TEntity obj)
         {
             dbSet.Add(obj);
+            _contexto.SaveChanges();
         }
 
         public void Delete(TEntity obj)

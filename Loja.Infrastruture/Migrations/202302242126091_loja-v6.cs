@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class lojadbv4 : DbMigration
+    public partial class lojav6 : DbMigration
     {
         public override void Up()
         {

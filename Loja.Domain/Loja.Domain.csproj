@@ -70,6 +70,7 @@
     <Compile Include="DAO\Test.cs" />
     <Compile Include="Interfaces\IBaseRepository.cs" />
     <Compile Include="Interfaces\ITestRepository.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

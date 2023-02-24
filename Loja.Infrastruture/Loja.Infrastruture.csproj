@@ -46,9 +46,10 @@
   <ItemGroup>
     <Compile Include="EF\Context.cs" />
     <Compile Include="BaseRepository.cs" />
-    <Compile Include="Migrations\202302240220562_lojadb-v4.cs" />
-    <Compile Include="Migrations\202302240220562_lojadb-v4.designer.cs">
-      <DependentUpon>202302240220562_lojadb-v4.cs</DependentUpon>
+    <Compile Include="EF\UnitOfWork.cs" />
+    <Compile Include="Migrations\202302242126091_loja-v6.cs" />
+    <Compile Include="Migrations\202302242126091_loja-v6.designer.cs">
+      <DependentUpon>202302242126091_loja-v6.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TestRepository.cs" />
@@ -60,8 +61,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302240220562_lojadb-v4.resx">
-      <DependentUpon>202302240220562_lojadb-v4.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302242126091_loja-v6.resx">
+      <DependentUpon>202302242126091_loja-v6.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
