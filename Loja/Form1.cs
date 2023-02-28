@@ -24,5 +24,30 @@ namespace Loja
         {
 
         }
+
+        private void lbl_none_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_3(object sender, EventArgs e)
+        {
+
+        }
     }
 }
